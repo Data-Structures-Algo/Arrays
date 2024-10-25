@@ -8,7 +8,7 @@ class Solution {
             // Swap max and min when encountering a negative number
             if(nums[i]<0){
                 int temp=maxProd;
-                maxProd=maxProd;
+                maxProd=minProd;
                 minProd=temp;
             }
 
